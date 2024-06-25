@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    outline: darkred dashed;
+
+    @media screen and (min-width: 414px) {
+        width: 414px;
+    }
+
+    @media screen and (min-width: 1212px) {
+        width: 1212px;
+    }
+}
